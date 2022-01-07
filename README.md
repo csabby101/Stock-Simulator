@@ -14,7 +14,7 @@ To register for an API key in order to be able to query IEX’s data, follow the
 * Once registered, scroll down to “Get started for free” and click “Select Start” to choose the free plan.
 * Once you’ve confirmed your account via a confirmation email, visit https://iexcloud.io/console/tokens.
 * Copy the key that appears under the Token column (it should begin with pk_).
-* In the terminal (for windows) execute: 'set API_KEY=value', where value is the key/API Token.
+* In the terminal (for windows) execute: `set API_KEY=value` where value is the key/API Token.
 
 ## Tech and files :
 This project was created using the python framework Flask.
