@@ -6,6 +6,11 @@
 * Web application that allows simulated trading of stocks from the US stock market. 
 * Investors can practice buying and selling of stocks without risking real money.
 
+## Tech and files :
+This project is created using the python framework Flask.
+The HTML template files are implemented using Jinja.
+The real time stock price data is fetched from [IEX CLoud](https://iexcloud.io/) as it lets you download stock quotes via their API.
+
 ## Configuring:
 To register for an API key in order to be able to query IEX’s data, follow these steps:
 
@@ -15,11 +20,6 @@ To register for an API key in order to be able to query IEX’s data, follow the
 * Once you’ve confirmed your account via a confirmation email, visit https://iexcloud.io/console/tokens.
 * Copy the key that appears under the Token column (it should begin with pk_).
 * In the terminal (for windows) execute: `set API_KEY=value` where value is the key/API Token.
-
-## Tech and files :
-This project was created using the python framework Flask.
-The HTML template files were implemented using Jinja.
-The real time stock price data was fetched from [IEX CLoud](https://iexcloud.io/) as it lets you download stock quotes via their API.
 
 ## Resources : 
 This project is inspired by a problem set which I encountered during the course [CS50x 2021](https://cs50.harvard.edu/x/2021/).
